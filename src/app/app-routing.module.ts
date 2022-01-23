@@ -7,20 +7,13 @@ const routes: Routes = [
     loadChildren: () => import('./home/home.module').then(m => m.HomeModule)
   },
   {
-    path: 'page-three',
+    path: 'shows',
     loadChildren: () =>
-      import('./page-three/page-three.module').then(m => m.PageThreeModule)
+      import('./shows/shows.module').then(m => m.ShowsModule)
   },
   {
-    path: 'page-two',
-    loadChildren: () => import('./page-two/page-two.module').then(m => m.PageTwoModule)
-  },
-  {
-    path: 'page-four',
-    loadChildren: () =>
-      import('./page-four/page-four.module').then(
-        m => m.PageFourModule
-      )
+    path: 'about',
+    loadChildren: () => import('./about/about.module').then(m => m.AboutModule)
   },
   {
     path: 'contact',

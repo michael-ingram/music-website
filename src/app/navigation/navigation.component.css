@@ -1,5 +1,5 @@
 header {
-  margin-bottom: 25px;
+  background-color: black;
 }
 header .logo {
   font-family: 'Poiret One', sans-serif;
@@ -26,14 +26,13 @@ nav ul li {
 }
 
 nav a {
-  color: black;
+  color: #f7da76;
   display: inline-block;
   font-family: 'Poiret One', sans-serif;
   font-size: 25px;
   height: 40px;
   padding-top: 5px;
   text-decoration: none;
-  text-transform: lowercase;
   width: 18%;
 }
 
@@ -42,9 +41,9 @@ nav a:hover {
 }
 
 nav a.active {
-  background-color: linen;
+  background-color: black;
 }
 
 nav a:visited {
-  color: black;
+  color: #f7da76;
 }
